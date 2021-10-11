@@ -8,6 +8,7 @@ TagManager:
   - ButtonSair
   - ButtonMusic
   - ButtonSom
+  - Plataform
   layers:
   - Default
   - TransparentFX
