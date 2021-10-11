@@ -9,6 +9,7 @@ TagManager:
   - ButtonMusic
   - ButtonSom
   - Plataform
+  - Parede
   layers:
   - Default
   - TransparentFX
