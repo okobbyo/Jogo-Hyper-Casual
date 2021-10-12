@@ -21,6 +21,7 @@ public class PlataformDetect : MonoBehaviour
     {
         if (collision.gameObject.tag == "Plataform")
         {
+            FindObjectOfType<AudioManager>().Play("Land");
             pg.canJump = true;
         }
     }
@@ -29,6 +30,7 @@ public class PlataformDetect : MonoBehaviour
     {
         if (collision.gameObject.tag == "Plataform")
         {
+            FindObjectOfType<AudioManager>().Play("Jump");
             pg.canJump = false;
         }
     }
