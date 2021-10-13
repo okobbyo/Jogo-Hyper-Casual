@@ -4,7 +4,12 @@ using UnityEngine;
 
 public class CameraControl : MonoBehaviour
 {
-    public Transform target;
+    //public Transform target;
+    
+    //public float offset;
+
+    
+    //private Transform playerTransform;
 
     public Transform bg1;
     public Transform bg2;
@@ -14,6 +19,7 @@ public class CameraControl : MonoBehaviour
 
     void Start()
     {
+        //playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
         size = bg1.GetComponent<BoxCollider2D>().size.y;
     }
 
@@ -21,10 +27,9 @@ public class CameraControl : MonoBehaviour
     void FixedUpdate() 
     {
         //camera
-        Vector3 targetPos = new Vector3(target.position.x, target.position.y, transform.position.z);
-
-        transform.position = Vector3.Lerp(transform.position, targetPos, 0.2f);
-    
+        //transform.position = Vector3.Lerp(transform.position, targetPos, 0.2f);
+        
+       
         //background
         if(transform.position.y >= bg2.position.y)
         {
@@ -38,6 +43,17 @@ public class CameraControl : MonoBehaviour
             SwitchBg();
         }
     }
+
+    //void LateUpdate()
+    //{
+        //Vector3 temp = transform.position;
+
+        //temp.y = playerTransform.position.y;
+
+        //temp.y += offset;
+
+        //transform.position = temp;
+    //}
 
     private void SwitchBg()
     {
