@@ -144,11 +144,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8469394769337302364, guid: f30861b30a53a7b44870bdee13b3167d, type: 3}
       propertyPath: m_Color.g
-      value: 0.12156863
+      value: 0.16805345
       objectReference: {fileID: 0}
     - target: {fileID: 8469394769337302364, guid: f30861b30a53a7b44870bdee13b3167d, type: 3}
       propertyPath: m_Color.r
-      value: 0.5553659
+      value: 0.12156863
       objectReference: {fileID: 0}
     - target: {fileID: 8469394769337302366, guid: f30861b30a53a7b44870bdee13b3167d, type: 3}
       propertyPath: m_Name
@@ -668,6 +668,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1081058941}
+        m_TargetAssemblyTypeName: PlayerJump, Assembly-CSharp
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &441848349
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -719,6 +731,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 203741358657879280, guid: a89e7ff05961c964bb7c5257911517b9, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f4ba7a5e8b25ae241a6c94d4d6df858d, type: 3}
+    - target: {fileID: 203741358657879280, guid: a89e7ff05961c964bb7c5257911517b9, type: 3}
       propertyPath: m_Color.b
       value: 0.21176471
       objectReference: {fileID: 0}
@@ -740,7 +756,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 203741358657879281, guid: a89e7ff05961c964bb7c5257911517b9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.72
+      value: -3.016
       objectReference: {fileID: 0}
     - target: {fileID: 203741358657879281, guid: a89e7ff05961c964bb7c5257911517b9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -781,6 +797,18 @@ PrefabInstance:
     - target: {fileID: 203741358657879283, guid: a89e7ff05961c964bb7c5257911517b9, type: 3}
       propertyPath: m_TagString
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777438118750961273, guid: a89e7ff05961c964bb7c5257911517b9, type: 3}
+      propertyPath: m_Radius
+      value: 0.44833234
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777438118750961273, guid: a89e7ff05961c964bb7c5257911517b9, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.0019696653
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777438118750961273, guid: a89e7ff05961c964bb7c5257911517b9, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.52363765
       objectReference: {fileID: 0}
     - target: {fileID: 1777438118750961273, guid: a89e7ff05961c964bb7c5257911517b9, type: 3}
       propertyPath: m_IsTrigger
@@ -1598,6 +1626,25 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!95 &1081058947
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1081058941}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8c7845f2d3a629943afc1519da279300, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1109430520
 GameObject:
   m_ObjectHideFlags: 0
@@ -2407,7 +2454,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2086495786}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.012, y: 0.595, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1081058943}
