@@ -14,7 +14,6 @@ public class PlataformMove : MonoBehaviour
     void Start()
     {
         PlataformRG = gameObject.GetComponent<Rigidbody2D>();
-        //PParede = GameObject.FindGameObjectWithTag("Plataform").GetComponent<PlataformMove>();
         PlataformMoveHorizontal();
     }
 
@@ -38,7 +37,11 @@ public class PlataformMove : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Parede")
+        if (collision.gameObject.tag == "ParedeDireita")
+        {
+            this.PlataformDirection = false;
+        }
+        if (collision.gameObject.tag == "ParedeEsquerda")
         {
             this.PlataformDirection = true;
         }
@@ -47,11 +50,6 @@ public class PlataformMove : MonoBehaviour
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.tag != "Parede")
-        {
-            this.PlataformDirection = false;
-        }
-
-        PlataformMoveHorizontal();
+   
     }
 }
