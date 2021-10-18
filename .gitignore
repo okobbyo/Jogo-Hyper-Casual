@@ -3,6 +3,8 @@
 [Oo]bj/
 [Bb]uild/
 [Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
 Assets/AssetStoreTools*
 
 # Visual Studio cache directory
@@ -35,3 +37,23 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+
+# Temporary auto-generated Android Assets
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+.vsconfig
+Jogo HyperCasual/Logs/AssetImportWorker0-prev.log
+Jogo HyperCasual/Logs/AssetImportWorker0.log
+Jogo HyperCasual/Logs/shadercompiler-AssetImportWorker0.log
+Jogo HyperCasual/Logs/shadercompiler-UnityShaderCompiler.exe0.log
+Jogo HyperCasual/Logs/shadercompiler-UnityShaderCompiler.exe1.log
+Jogo HyperCasual/Logs/shadercompiler-UnityShaderCompiler.exe10.log
+Jogo HyperCasual/Logs/shadercompiler-UnityShaderCompiler.exe11.log
+Jogo HyperCasual/Logs/shadercompiler-UnityShaderCompiler.exe2.log
+Jogo HyperCasual/Logs/shadercompiler-UnityShaderCompiler.exe3.log
+Jogo HyperCasual/Logs/shadercompiler-UnityShaderCompiler.exe4.log
+Jogo HyperCasual/Logs/shadercompiler-UnityShaderCompiler.exe5.log
+Jogo HyperCasual/Logs/shadercompiler-UnityShaderCompiler.exe6.log
+Jogo HyperCasual/Logs/shadercompiler-UnityShaderCompiler.exe7.log
+Jogo HyperCasual/Logs/shadercompiler-UnityShaderCompiler.exe8.log
+Jogo HyperCasual/Logs/shadercompiler-UnityShaderCompiler.exe9.log
