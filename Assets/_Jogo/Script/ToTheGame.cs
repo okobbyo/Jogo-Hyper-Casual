@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class BackToGame : MonoBehaviour
+public class ToTheGame : MonoBehaviour
 {
-    public void BackToTheGame()
+   public void MenuToGame()
     {
         SceneManager.LoadScene(0);
     }

@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class BackToGame : MonoBehaviour
+public class ToTheMenu : MonoBehaviour
 {
-    public void BackToTheGame()
+ public void ToTheMMenu()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(2);
     }
 }
