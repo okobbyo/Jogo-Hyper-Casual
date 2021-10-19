@@ -166,7 +166,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlataformDirection: 1
-  PlataformSpeed: 3
+  PlataformSpeed: 2
 --- !u!61 &6579363823056116031
 BoxCollider2D:
   m_ObjectHideFlags: 0
