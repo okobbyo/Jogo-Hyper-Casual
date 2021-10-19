@@ -19,18 +19,13 @@ public class CameraControl : MonoBehaviour
 
     void Start()
     {
-        //playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
         size = bg1.GetComponent<BoxCollider2D>().size.y;
     }
 
     
     void FixedUpdate() 
     {
-        //camera
-        //transform.position = Vector3.Lerp(transform.position, targetPos, 0.2f);
-        
        
-        //background
         if(transform.position.y >= bg2.position.y)
         {
             bg1.position = new Vector3(bg1.position.x, bg2.position.y + size, bg1.position.z);
@@ -44,16 +39,6 @@ public class CameraControl : MonoBehaviour
         }
     }
 
-    //void LateUpdate()
-    //{
-        //Vector3 temp = transform.position;
-
-        //temp.y = playerTransform.position.y;
-
-        //temp.y += offset;
-
-        //transform.position = temp;
-    //}
 
     private void SwitchBg()
     {
