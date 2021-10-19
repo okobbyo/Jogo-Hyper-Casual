@@ -4,15 +4,27 @@ using UnityEngine;
 
 public class PlataformGenerator : MonoBehaviour
 {
-    // Start is called before the first frame update
+    private PlataformMove pm;
+    private PlataformSome ps;
+
+    private void Awake()
+    {
+        PlataformGen();
+    }
+
     void Start()
     {
         
     }
 
-    // Update is called once per frame
+
     void Update()
     {
         
+    }
+
+    public void PlataformGen()
+    {
+
     }
 }
