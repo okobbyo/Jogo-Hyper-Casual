@@ -11,6 +11,8 @@ TagManager:
   - Plataform
   - ParedeDireita
   - ParedeEsquerda
+  - Point
+  - Double
   layers:
   - Default
   - TransparentFX
