@@ -17,6 +17,7 @@ public class PlataformMove : MonoBehaviour
         PlataformMoveHorizontal();
     }
 
+
     // Update is called once per frame
     void Update()
     {
@@ -34,7 +35,7 @@ public class PlataformMove : MonoBehaviour
             PlataformRG.velocity = new Vector2(-PlataformSpeed, 0);
         }
     }
-
+ 
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -46,9 +47,9 @@ public class PlataformMove : MonoBehaviour
         {
             this.PlataformDirection = true;
         }
-
         PlataformMoveHorizontal();
     }
+
     private void OnTriggerExit2D(Collider2D collision)
     {
 
