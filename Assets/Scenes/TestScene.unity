@@ -2153,11 +2153,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f30861b30a53a7b44870bdee13b3167d, type: 3}
---- !u!4 &1132648714 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7932708752586490431, guid: 20e58eb5501cff44ba32e35cc943f551, type: 3}
-  m_PrefabInstance: {fileID: 1922432133}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1150602629 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1026545864766626933, guid: 2b645af610d8189429f4bb89d2478bfb, type: 3}
@@ -3849,14 +3844,6 @@ PrefabInstance:
     - target: {fileID: 7837795226347586491, guid: 20e58eb5501cff44ba32e35cc943f551, type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 7932708752651255627, guid: 20e58eb5501cff44ba32e35cc943f551, type: 3}
-      propertyPath: groundCheck
-      value: 
-      objectReference: {fileID: 1132648714}
-    - target: {fileID: 7932708752651255627, guid: 20e58eb5501cff44ba32e35cc943f551, type: 3}
-      propertyPath: groundLayer.m_Bits
-      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 7932708753240094614, guid: 20e58eb5501cff44ba32e35cc943f551, type: 3}
       propertyPath: m_Size.y
