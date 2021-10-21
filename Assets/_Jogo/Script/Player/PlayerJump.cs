@@ -20,7 +20,6 @@ public class PlayerJump : MonoBehaviour
         
         if (isGrounded)
         {
-            FindObjectOfType<AudioManager>().Play("Land");
             Jump();
         }
      
@@ -46,6 +45,14 @@ public class PlayerJump : MonoBehaviour
             FindObjectOfType<AudioManager>().Play("Jump");
         }
         
+    }
+    
+    void OnCollisionEnter (Collision col)
+    {
+        if (col.gameObject.tag == "Plataform")
+        {
+            FindObjectOfType<AudioManager>().Play("Land");
+        }
     }
 
   
