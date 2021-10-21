@@ -33,13 +33,11 @@ public class ScoreCounter : MonoBehaviour
         }
         if (collision.name.Equals("Point") && !doublePickedUp)
         {
-            Debug.Log("funciona1");
             collision.gameObject.SetActive(false);
             scoreValue += 1;
         }
         if (collision.name.Equals("Point") && doublePickedUp)
         {
-            Debug.Log("funciona2");
             collision.gameObject.SetActive(false);
             scoreValue += 2;
         }

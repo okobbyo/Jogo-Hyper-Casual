@@ -167,6 +167,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canJump: 0
+  groundCheck: {fileID: 7932708752586490431}
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 64
   JumpForce: 13
 --- !u!1 &7932708752586490430
 GameObject:
