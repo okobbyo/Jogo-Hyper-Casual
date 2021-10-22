@@ -4,12 +4,6 @@ using UnityEngine;
 
 public class CameraControl : MonoBehaviour
 {
-    //public Transform target;
-    
-    //public float offset;
-
-    
-    //private Transform playerTransform;
 
     public Transform bg1;
     public Transform bg2;

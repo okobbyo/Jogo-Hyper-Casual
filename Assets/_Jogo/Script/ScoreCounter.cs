@@ -33,6 +33,7 @@ public class ScoreCounter : MonoBehaviour
         }
         if (collision.name.Equals("Point") && !doublePickedUp)
         {
+            FindObjectOfType<AudioManager>().Play("GetPoint");
             collision.gameObject.SetActive(false);
             scoreValue += 1;
         }
