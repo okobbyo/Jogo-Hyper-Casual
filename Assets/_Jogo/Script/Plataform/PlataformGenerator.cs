@@ -39,7 +39,7 @@ public class PlataformGenerator : MonoBehaviour
         {
             PlataformGen();
             ZonasMoveUp();
-            points();
+            //points();
         }
        
     }
@@ -65,18 +65,5 @@ public class PlataformGenerator : MonoBehaviour
         zoneHeight = zoneHeight + 2.5f;
     }
 
-    public void points()
-    {
-        PointObj[pointNumber].transform.position = new Vector3(0, poinSpawntheight, 0);
-        PointObj[pointNumber].SetActive(true);
-        float PRandom = Random.Range(0f, 10f);
-        poinSpawntheight = poinSpawntheight + 2.5f;
-        poinReSpawntheight = poinReSpawntheight + 2.5f;
-        pointNumber++;
-
-        if(pointNumber == 10)
-        {
-            pointNumber = 0;
-        }
-    }
+    
 }
