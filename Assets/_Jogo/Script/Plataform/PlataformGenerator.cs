@@ -41,10 +41,7 @@ public class PlataformGenerator : MonoBehaviour
             ZonasMoveUp();
             points();
         }
-        //if(Player.transform.position.y > zoneHeight)
-        //{
-
-        //}
+       
     }
 
     public void PlataformGen()
