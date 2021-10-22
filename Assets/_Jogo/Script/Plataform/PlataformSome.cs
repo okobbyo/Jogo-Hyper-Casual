@@ -17,10 +17,6 @@ public class PlataformSome : MonoBehaviour
         PlataformHorizontalSome();
     }
 
-    void Update()
-    {
-
-    }
 
     public void OnTriggerEnter2D(Collider2D collision)
     {

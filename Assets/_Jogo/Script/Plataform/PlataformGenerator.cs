@@ -33,18 +33,6 @@ public class PlataformGenerator : MonoBehaviour
     int pointNumber;
 
 
-
-    private void Awake()
-    {
-
-    }
-
-    void Start()
-    {
-        
-    }
-
-
     void Update()
     {
         if (Player.transform.position.y > respawnHeight)
