@@ -20,7 +20,7 @@ public class ScoreCounter : MonoBehaviour
 
     private void Update()
     {
-        scoreText.text = "score: " + scoreValue;
+        scoreText.text = "SCORE: " + scoreValue;
     }
 
     public void OnTriggerEnter2D(Collider2D collision)
